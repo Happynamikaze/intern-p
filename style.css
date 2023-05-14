@@ -721,6 +721,9 @@ transition: 0.3s all ease;
     position: relative;
 }
 
+.bottle-div{
+        
+}
 .bottle-div:nth-child(1) img{
     transition: 0.5s all ease;
 
@@ -732,6 +735,7 @@ transition: 0.3s all ease;
     border-radius: 13px;
     transition: 0.5s all ease;
     text-align: center;
+    border: 2px solid transparent;
 
 }
 .bottle-div:nth-child(1):hover{
@@ -759,6 +763,8 @@ opacity: 0.70;
     border-radius: 13px;
     transition: 0.5s all ease;
     text-align: center;
+    border: 2px solid transparent;
+
 
 }
 .bottle-div2:nth-child(1):hover{
@@ -784,6 +790,8 @@ opacity: 0.70;
    padding: 19px;
     border-radius: 13px;
     transition: 0.5s all ease;
+    border: 2px solid transparent;
+
     text-align: center;
 
 }

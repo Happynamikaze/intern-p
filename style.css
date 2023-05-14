@@ -748,12 +748,12 @@ opacity: 0.70;
  }
  
  
-.bottle-div:nth-child(2) img{
+.bottle-div2:nth-child(1) img{
     transition: 0.5s all ease;
 
 
 }
-.bottle-div:nth-child(2){
+.bottle-div2:nth-child(1){
    background-color: var(--theme-light-blue);
    padding: 19px;
     border-radius: 13px;
@@ -761,25 +761,25 @@ opacity: 0.70;
     text-align: center;
 
 }
-.bottle-div:nth-child(2):hover{
+.bottle-div2:nth-child(1):hover{
     
     background-color: var(--theme-white);
    border: 2px solid var(--theme-dark-blue);
    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
    
  }
- .bottle-div:nth-child(2):hover img{
+ .bottle-div2:nth-child(1):hover img{
 rotate: -25deg;
 transform: scale(0.9);
 opacity: 0.70;
  }
  
-.bottle-div:nth-child(3) img{
+.bottle-div3:nth-child(1) img{
     transition: 0.5s all ease;
 
 
 }
-.bottle-div:nth-child(3){
+.bottle-div3:nth-child(1){
    background-color: var(--theme-light-blue);
    padding: 19px;
     border-radius: 13px;
@@ -787,23 +787,24 @@ opacity: 0.70;
     text-align: center;
 
 }
-.bottle-div:nth-child(3):hover{
+.bottle-div3:nth-child(1):hover{
     
     background-color: var(--theme-white);
    border: 2px solid var(--theme-dark-blue);
    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
    
  }
- .bottle-div:nth-child(3):hover img{
+ .bottle-div3:nth-child(1):hover img{
 rotate: -65deg;
 transform: scale(0.95);
 opacity: 0.70;
  }
  
-.bottle-div{
+.bottle-div,
+.bottle-div2,
+.bottle-div3{
     transition: 0.5s all ease;
     position: relative;
-
     
 }
 .last-color-cngh{
@@ -873,11 +874,36 @@ opacity: 0.70;
     opacity: 1;
     scale: 1;
 }
+.bottle-div2:hover .on-hover-text{
+    opacity: 1;
+    scale: 1;
+}
+.bottle-div3:hover .on-hover-text{
+    opacity: 1;
+    scale: 1;
+}
+
+
 .bottle-div:hover .on-hover-btn1{
     opacity: 1;
     scale: 1;
 }
+.bottle-div2:hover .on-hover-btn1{
+    opacity: 1;
+    scale: 1;
+}.bottle-div3:hover .on-hover-btn1{
+    opacity: 1;
+    scale: 1;
+}
 .bottle-div:hover .on-hover-btn2{
+    opacity: 1;
+    scale: 1;
+}
+.bottle-div2:hover .on-hover-btn2{
+    opacity: 1;
+    scale: 1;
+}
+.bottle-div3:hover .on-hover-btn2{
     opacity: 1;
     scale: 1;
 }

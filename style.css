@@ -13,9 +13,13 @@
     --super-light: #E5E5E5;
     --color-light: #969696;
     --theme-white: #ffffff;
+    --theme--dark-white: #F4F5F7;
+    --theme-order-text: #424551;
     --theme-text: #1D1B19;
     --theme-light-blue : #007FB933;
     --theme-light-dark:#787A80;
+    --theme-light-green:#17696A;
+
 }
 
 *,
@@ -126,7 +130,10 @@ font-size: 14px;
     line-height: 19px;
     color: var(--theme-white);
 }
-
+.text-os {
+    font-size: 16px;
+    font-weight: 700;
+}
 .text-light {
     color: var(--color-light);
 }
@@ -653,8 +660,6 @@ font-size: 14px;
 }
 
 .order-banner {
-    margin-top: 12px;
-    width: 90%;
     padding: 80px 0;
     background-color: var(--theme-light-blue);
     height: 550px;
@@ -750,7 +755,7 @@ rotate: -45deg;
 transform: scale(1.2);
 opacity: 0.70;
  }
- 
+
  
 .bottle-div2:nth-child(1) img{
     transition: 0.5s all ease;
@@ -1017,4 +1022,72 @@ input {
 .roet:hover .rot{
     rotate: -360deg;
 
+}
+.com-v{
+    width: 120px;
+height: 64px;
+padding: 14px;
+background-color: var(--theme--dark-white);
+border: 1px solid #D7DADD;
+border-radius: 4px;
+}
+.com-m{
+    width: 120px;
+height: 64px;
+padding: 10px;
+background-color: var(--theme--dark-white);
+border: 1px solid #D7DADD;
+border-radius: 4px;
+}
+.com-p{
+    width: 120px;
+height: 64px;
+padding: 12px;
+background-color: var(--theme--dark-white);
+border: 1px solid #D7DADD;
+border-radius: 4px;
+}
+.order-text-dis{
+    color: var(--theme-order-text);;
+}
+.order-text{
+    font-size: 14px;
+}
+.return-font{
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 28px;
+}
+.order-hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgb(7 0 0 / 15%), rgb(0 0 0), rgb(0 0 0 / 15%));
+}
+.align-sett{
+    width: 15%;
+}
+.align-set1 {
+    width: 31%;
+}
+.align-set2 {
+    width: 29%;
+}
+.align-set3 {
+    width: 27%;
+}
+.text-set-order{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--theme-light-dark);
+}
+.text-set-order-head{
+    width: 15%;
+}
+.text-set-order-data{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--theme-order-text);
+}
+.order-side-div-set{
+    padding: 18px;
 }

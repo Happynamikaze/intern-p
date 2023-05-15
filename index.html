@@ -1,83 +1,82 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-	
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="./style.css" />
     <title>ARACHNOMESH</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="header">
-      <div class="nav_wrapper theme_container">
-        <div class="item_left">
-          <div class="logo">
-            <a class="" href="./index.html">
-              <p>ARACHNOMESH</p>
-            </a>
-          </div>
-        </div>
-        <div class="item_right">
-          <div class="mobile_overlay"></div>
-          <nav class="navigation_bar">
-            <ul>
-              <li><i class="fa-light fa-xmark close_menu"></i></li>
-              <li><a class="active" href="index.html">Home</a></li>
-              <li><a class="not-active" href="">About</a></li>
-              <li><a class="not-active" href="">Bottles</a></li>
-              <li><a class="not-active" href="">Contact</a></li>
-              <li><a class="theme_button" href="">Login</a></li>
-            </ul>
-            <div class="hamburger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <a href="./order.html">
-    <div class="add-to-cart">
-            <img src="./img/cart.svg" alt="" >
-            <p>Add to cart</p>
-        </div>
-    </a>    
-  
-    <section class="hero-wrapper page-full">
-      <div class="container">
-        <div class="bottle-cap">
-          <img src="./img/bottol-cap.png" alt="" />
-        </div>
-        <div class="hero-content-wrapper">
-          <div class="row justify-content-center">
-            <div class="col-lg-7">
-              <div class="hero-content">
-                <div class="content-text">
-                  <h1 class="mb-3 content">
-                    Self Cleaning bottle In 60 Seconds
-                  </h1>
-                  <p class="mb-4 content">
-                    Hit refresh with the intelligently clean bottle built for
-                    adventure.
-                  </p>
-                  <div class="text-center content   ">
-                    <a href="#" class="theme_button text-dark">Know More</a>
-                  </div>
+        <div class="nav_wrapper theme_container">
+            <div class="item_left">
+                <div class="logo">
+                    <a class="" href="./index.html">
+                        <p>ARACHNOMESH</p>
+                    </a>
                 </div>
-              </div>
             </div>
-          </div>
+            <div class="item_right">
+                <div class="mobile_overlay"></div>
+                <nav class="navigation_bar">
+                    <ul>
+                        <li><i class="fa-light fa-xmark close_menu"></i></li>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a class="not-active" href="">About</a></li>
+                        <li><a class="not-active" href="">Bottles</a></li>
+                        <li><a class="not-active" href="">Contact</a></li>
+                        <li><a class="theme_button" href="">Login</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
         </div>
-        <div class="bottle-body">
-          <img src="./img/bottle-body.png" alt="" />
+    </header>
+    <a href="./order.html" class="add-to-cart">
+        <img src="./img/cart.svg" alt="">
+        <p>Add to cart</p>
+    </a>
+    <section class="child hero-wrapper page-full">
+        <div class="container">
+            <div class="bottle-cap">
+                <img src="./img/bottol-cap.png" alt="" />
+            </div>
+            <div class="hero-content-wrapper">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="hero-content">
+                            <div class="content-text">
+                                <h1 class="mb-3 content">
+                                    Self Cleaning bottle In 60 Seconds
+                                </h1>
+                                <p class="mb-4 content">
+                                    Hit refresh with the intelligently clean bottle built for
+                                    adventure.
+                                </p>
+                                <div class="text-center content   ">
+                                    <a href="#" class="theme_button text-dark">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottle-body">
+                <img src="./img/bottle-body.png" alt="" />
+            </div>
         </div>
-      </div>
     </section>
-    <section class="smart-section page-full">
+    <section class="child smart-section page-full">
         <div class="bottle-wrapper">
             <img src="./img/bottle-1.png" class="img-fluid bottle-odd" alt="">
             <img src="./img/bottle-2.png" class="img-fluid bottle-even" alt="">
@@ -92,7 +91,7 @@
             </div>
         </div>
     </section>
-    <section class="work page-full-min">
+    <section class="child work page-full-min">
         <div class="container">
             <div class="row pt-4">
                 <div class="col-md-4">
@@ -103,25 +102,31 @@
                         <div class="col-md-6">
                             <div class="work-count-card">
                                 <h5 class="lato primary-text">Get <br> Inspired</h5>
-                                <p class="text-muted text-md">Satisfy all of your inspiration needs in one place..</p>
+                                <p class="text-muted text-md">Satisfy all of your inspiration needs in one place..
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="work-count-card">
                                 <h5 class="lato primary-text">Nano <br> Zero Filtration</h5>
-                                <p class="text-muted text-md">Nano Zero Filtration is a completely reimagined plant-based filter.</p>
+                                <p class="text-muted text-md">Nano Zero Filtration is a completely reimagined
+                                    plant-based filter.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="work-count-card">
                                 <h5 class="lato primary-text">PureV <br> Technology </h5>
-                                <p class="text-muted text-md">Proprietary PureV™ technology improves the quality of your water by preventing water.</p>
+                                <p class="text-muted text-md">Proprietary PureV™ technology improves the quality of
+                                    your
+                                    water by preventing water.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="work-count-card">
                                 <h5 class="lato primary-text">Self-Cleaning <br> Worry-Free </h5>
-                                <p class="text-muted text-md">Neutralizes up to 99%* of bacteria such as E.coli using PureV technology.</p>
+                                <p class="text-muted text-md">Neutralizes up to 99%* of bacteria such as E.coli
+                                    using
+                                    PureV technology.</p>
                             </div>
                         </div>
                     </div>
@@ -131,7 +136,9 @@
                 <div class="col-md-4">
                     <div class="work-btm-card">
                         <div class="card-text">
-                            <h6 class="lato text-center primary-text">One million single use <br> plastic bottles are thrown <br> out every minute!</h6>
+                            <h6 class="lato text-center primary-text">One million single use <br> plastic bottles
+                                are
+                                thrown <br> out every minute!</h6>
                         </div>
                         <div class="card-img">
                             <img src="./img/work-img-1.png" class="w-100" alt="">
@@ -141,7 +148,10 @@
                 <div class="col-md-4">
                     <div class="work-btm-card">
                         <div class="card-text">
-                            <h6 class="lato text-center primary-text">The Plastic free year <br> Challenges is Here <br> <a href="#" class="underline-a     ">REGISTER NOW!</a></h6>
+                            <h6 class="lato text-center primary-text">The Plastic free year <br> Challenges is Here
+                                <br>
+                                <a href="#" class="underline-a     ">REGISTER NOW!</a>
+                            </h6>
                         </div>
                         <div class="card-img">
                             <img src="./img/work-img-2.png" class="w-100" alt="">
@@ -151,8 +161,11 @@
                 <div class="col-md-4">
                     <div class="work-btm-card">
                         <div class="card-text">
-                            <h6 class="lato text-center primary-text">How to live sustainably <br> during a pandemic. <br>
-                            <a href="#" class="underline-a" > Read More.</a></h6>
+                            <h6 class="lato text-center primary-text">How to live sustainably <br> during a
+                                pandemic.
+                                <br>
+                                <a href="#" class="underline-a"> Read More.</a>
+                            </h6>
                         </div>
                         <div class="card-img">
                             <img src="./img/work-img-3.png" class="w-100" alt="">
@@ -162,10 +175,7 @@
             </div>
         </div>
     </section>
-    
-
-    
-    <section class="testimonial bg-blue-gradient ">
+    <section class="child testimonial bg-blue-gradient ">
         <div class="col-md-12 p-5">
             <h5 class="fst-italic primary-text2 anime-heading2">TESTIMONIALS</h5>
         </div>
@@ -178,7 +188,10 @@
                             <img src="./img/user-pp-2.png" alt="">
                         </div>
                         <div class="test-feedback">
-                            <p>Say goodbye to your reusable bottles persistent funk — and hello to this Jetsons-worthy update.  My only regret is that I didn't here about this for my first 3 purchases.</p>
+                            <p>Say goodbye to your reusable bottles persistent funk — and hello to this
+                                Jetsons-worthy
+                                update. My only regret is that I didn't here about this for my first 3 purchases.
+                            </p>
                             <p>They did a great job!!</p>
                         </div>
                         <div class="test-details d-flex justify-content-between align-items-center">
@@ -203,7 +216,10 @@
                             <img src="./img/user-pp-1.png" alt="">
                         </div>
                         <div class="test-feedback">
-                            <p>Say goodbye to your reusable bottles persistent funk — and hello to this Jetsons-worthy update.  My only regret is that I didn't here about this for my first 3 purchases.</p>
+                            <p>Say goodbye to your reusable bottles persistent funk — and hello to this
+                                Jetsons-worthy
+                                update. My only regret is that I didn't here about this for my first 3 purchases.
+                            </p>
                             <p>They did a great job!!</p>
                         </div>
                         <div class="test-details d-flex justify-content-between align-items-center">
@@ -226,7 +242,10 @@
                             <img src="./img/user-pp-3.png" alt="">
                         </div>
                         <div class="test-feedback">
-                            <p>Say goodbye to your reusable bottles persistent funk — and hello to this Jetsons-worthy update.  My only regret is that I didn't here about this for my first 3 purchases.</p>
+                            <p>Say goodbye to your reusable bottles persistent funk — and hello to this
+                                Jetsons-worthy
+                                update. My only regret is that I didn't here about this for my first 3 purchases.
+                            </p>
                             <p>They did a great job!!</p>
                         </div>
                         <div class="test-details d-flex justify-content-between align-items-center">
@@ -244,9 +263,9 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
-    
+
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -276,14 +295,16 @@
                         <li><a href="#" class="text-md">Press</a></li>
                         <li><a href="#" class="text-md">Our Story</a></li>
                         <li><a href="#" class="text-md">Tech</a></li>
-                       
+
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <h4>Sign up for the newsletter</h4>
                     <div class="buttonIn">
                         <input type="text" id="enter" placeholder="Enter your Email">
-                     <div class="footer-btn"><p>SIGN UP</p></div>
+                        <div class="footer-btn">
+                            <p>SIGN UP</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -292,25 +313,27 @@
                     <p>Copyright Arachnomesh 2022</p>
                 </div>
                 <div class="text-sd col-md-4 d-flex gap-3 justify-content-center roet">
-                <img src="./img/ld.svg" alt="" class="rot">
-                <img src="./img/fb.svg" alt="" class="rot">
-                <img src="./img/twi.svg" alt="" class="rot">
-                <img src="./img/wp.svg" alt="" class="rot">
+                    <img src="./img/ld.svg" alt="" class="rot">
+                    <img src="./img/fb.svg" alt="" class="rot">
+                    <img src="./img/twi.svg" alt="" class="rot">
+                    <img src="./img/wp.svg" alt="" class="rot">
                 </div>
-                <div class="text-sd col-md-4 set-copyright">               
-                        <p>T&C</p>
-                        <p>Privacy Policy</p>             
+                <div class="text-sd col-md-4 set-copyright">
+                    <p>T&C</p>
+                    <p>Privacy Policy</p>
                 </div>
-                
+
             </div>
         </div>
-        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="200px" width="100%" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="200px"
+            width="100%" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
             <defs>
-                <linearGradient id="paint" x1="-1" y1="74.002" x2="1439" y2="74.002" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="#004E84"/>
-                    <stop offset="1" stop-color="#01ADEB"/>
-                </linearGradient>
-                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+                <lineargradient id="paint" x1="-1" y1="74.002" x2="1439" y2="74.002" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#004E84" />
+                    <stop offset="1" stop-color="#01ADEB" />
+                </lineargradient>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                </path>
             </defs>
             <g class="parallax">
                 <use xlink:href="#gentle-wave" x="48" y="0" fill="#6FB1FC80"></use>
@@ -320,14 +343,15 @@
                 <use xlink:href="#gentle-wave" x="48" y="9" fill="url(#paint)"></use>
             </g>
         </svg>
-      
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js	"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-   
+
     <script src="./main.js"></script>
-  </body>
+</body>
+
 </html>
